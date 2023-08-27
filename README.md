@@ -1,26 +1,16 @@
 # RLCard Showdown
-This is the GUI support for the [RLCard](https://github.com/datamllab/rlcard) project and [DouZero](https://github.com/kwai/DouZero) project. RLCard-Showdown provides evaluation and visualization tools to help understand the performance of the agents. It includes a replay module, where you can analyze the replays, and a PvE module, where you can play with the AI interactively. Currently, we only support Leduc Hold'em and Dou Dizhu. The frontend is developed with [React](https://reactjs.org/). The backend is based on [Django](https://www.djangoproject.com/) and [Flask](https://flask.palletsprojects.com/). Have fun!
 
-*   Official Website: [http://www.rlcard.org](http://www.rlcard.org)
-*   Tutorial in Jupyter Notebook: [https://github.com/datamllab/rlcard-tutorial](https://github.com/datamllab/rlcard-tutorial)
-*   Paper: [https://www.ijcai.org/Proceedings/2020/764](https://www.ijcai.org/Proceedings/2020/764)
-*   Document: [Click Here](docs/README.md)
-*   Online Demo with DouZero: [https://www.douzero.org/](https://www.douzero.org/)
-*   Miscellaneous Resources: Have you heard of data-centric AI? Please check out our [data-centric AI survey](https://arxiv.org/abs/2303.10158) and [awesome data-centric AI resources](https://github.com/daochenzha/data-centric-AI)!
-
-## Cite this work
-Zha, Daochen, et al. "RLCard: A Platform for Reinforcement Learning in Card Games." IJCAI. 2020.
-```bibtex
-@inproceedings{zha2020rlcard,
-  title={RLCard: A Platform for Reinforcement Learning in Card Games},
-  author={Zha, Daochen and Lai, Kwei-Herng and Huang, Songyi and Cao, Yuanpu and Reddy, Keerthana and Vargas, Juan and Nguyen, Alex and Wei, Ruzhe and Guo, Junyu and Hu, Xia},
-  booktitle={IJCAI},
-  year={2020}
-}
-```
 
 ## Installation
 RLCard-Showdown has separated frontend and backend. The frontend is built with React and the backend is based on Django and Flask.
+###
+安装 node (3.6+) / npm
+(参考)[https://developer.aliyun.com/article/760687]
+
+```
+sudo apt update
+sudo apt install nodejs npm
+```
 
 ### Prerequisite
 To set up the frontend, you should make sure you have [Node.js](https://nodejs.org/) and NPM installed. Normally you just need to manually install Node.js, and the NPM package would be automatically installed together with Node.js for you. Please refer to its official website for installation of Node.js.
@@ -84,3 +74,7 @@ If you have any questions or feedback, feel free to drop an email to [Songyi Hua
 
 ## Acknowledgements
 We would like to thank JJ World Network Technology Co., LTD for the generous support, [Chieh-An Tsai](https://anntsai.myportfolio.com/) for user interface design, and [Lei Pan](https://github.com/lpan18) for the help in visualizations.
+
+
+
+

@@ -24,7 +24,7 @@ def get_move_type(move):
     if move_size == 2:
         if move[0] == move[1]:
             return {'type': TYPE_2_PAIR, 'rank': move[0]}
-        elif move == [20, 30]:  # Kings
+        elif move in [[20, 30], [30, 20]]:  # Kings
             return {'type': TYPE_5_KING_BOMB}
         else:
             return {'type': TYPE_15_WRONG}
